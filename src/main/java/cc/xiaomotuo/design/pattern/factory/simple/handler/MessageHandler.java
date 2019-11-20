@@ -1,6 +1,6 @@
-package cc.xiaomotuo.design.pattern.simple.factory.handler;
+package cc.xiaomotuo.design.pattern.factory.simple.handler;
 
-import cc.xiaomotuo.design.pattern.simple.factory.message.Message;
+import cc.xiaomotuo.design.pattern.factory.simple.message.Message;
 
 /**
  * 消息处理器

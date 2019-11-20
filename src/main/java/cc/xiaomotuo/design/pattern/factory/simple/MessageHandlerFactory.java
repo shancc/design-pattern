@@ -1,10 +1,10 @@
-package cc.xiaomotuo.design.pattern.simple.factory;
+package cc.xiaomotuo.design.pattern.factory.simple;
 
-import cc.xiaomotuo.design.pattern.simple.factory.handler.MessageHandler;
-import cc.xiaomotuo.design.pattern.simple.factory.handler.PayResultMessageHandler;
-import cc.xiaomotuo.design.pattern.simple.factory.handler.RefundResultMessageHandler;
-import cc.xiaomotuo.design.pattern.simple.factory.handler.SubmitOrderMessageHandler;
-import cc.xiaomotuo.design.pattern.simple.factory.message.MessageTypeEnum;
+import cc.xiaomotuo.design.pattern.factory.simple.handler.MessageHandler;
+import cc.xiaomotuo.design.pattern.factory.simple.handler.PayResultMessageHandler;
+import cc.xiaomotuo.design.pattern.factory.simple.handler.RefundResultMessageHandler;
+import cc.xiaomotuo.design.pattern.factory.simple.handler.SubmitOrderMessageHandler;
+import cc.xiaomotuo.design.pattern.factory.simple.message.MessageTypeEnum;
 
 /**
  * 简单工厂
@@ -19,7 +19,7 @@ public class MessageHandlerFactory {
      * @param type
      * @return
      */
-    MessageHandler getHandler(MessageTypeEnum type) {
+    MessageHandler createHandler(MessageTypeEnum type) {
         MessageHandler messageHandler = null;
         switch (type) {
             case PAY_RESULT:

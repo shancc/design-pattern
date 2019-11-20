@@ -1,4 +1,4 @@
-package cc.xiaomotuo.design.pattern.simple.factory.message;
+package cc.xiaomotuo.design.pattern.factory.simple.message;
 
 public enum MessageTypeEnum {
 
