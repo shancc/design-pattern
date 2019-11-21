@@ -4,6 +4,11 @@ import cc.xiaomotuo.design.pattern.decorator.impl.PerpetualCache;
 
 import java.util.LinkedList;
 
+/**
+ * First In First Out
+ * @author Cc
+ * @date 2019/11/21
+ */
 public class FifoCacheDecorator extends AbstractCacheDecorator {
 
     private LinkedList<Object> keyList;
