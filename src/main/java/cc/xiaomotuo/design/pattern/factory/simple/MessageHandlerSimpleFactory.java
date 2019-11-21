@@ -1,10 +1,10 @@
 package cc.xiaomotuo.design.pattern.factory.simple;
 
-import cc.xiaomotuo.design.pattern.factory.simple.handler.MessageHandler;
-import cc.xiaomotuo.design.pattern.factory.simple.handler.PayResultMessageHandler;
-import cc.xiaomotuo.design.pattern.factory.simple.handler.RefundResultMessageHandler;
-import cc.xiaomotuo.design.pattern.factory.simple.handler.SubmitOrderMessageHandler;
-import cc.xiaomotuo.design.pattern.factory.simple.message.MessageTypeEnum;
+import cc.xiaomotuo.design.pattern.factory.handler.MessageHandler;
+import cc.xiaomotuo.design.pattern.factory.handler.PayResultMessageHandler;
+import cc.xiaomotuo.design.pattern.factory.handler.RefundResultMessageHandler;
+import cc.xiaomotuo.design.pattern.factory.handler.SubmitOrderMessageHandler;
+import cc.xiaomotuo.design.pattern.factory.message.MessageTypeEnum;
 
 /**
  * 简单工厂
@@ -12,7 +12,7 @@ import cc.xiaomotuo.design.pattern.factory.simple.message.MessageTypeEnum;
  * @author Cc
  * @date 2019/11/19
  */
-public class MessageHandlerFactory {
+public class MessageHandlerSimpleFactory {
 
     /**
      * 获取消息处理器

@@ -1,13 +1,13 @@
 package cc.xiaomotuo.design.pattern.factory.simple;
 
-import cc.xiaomotuo.design.pattern.factory.simple.message.MessageTypeEnum;
-import cc.xiaomotuo.design.pattern.factory.simple.handler.MessageHandler;
-import cc.xiaomotuo.design.pattern.factory.simple.message.Message;
+import cc.xiaomotuo.design.pattern.factory.message.MessageTypeEnum;
+import cc.xiaomotuo.design.pattern.factory.handler.MessageHandler;
+import cc.xiaomotuo.design.pattern.factory.message.Message;
 import org.junit.Test;
 
 import java.util.UUID;
 
-public class MessageHandlerFactoryTest {
+public class MessageHandlerSimpleFactoryTest {
 
     @Test
     public void getHandler() {
@@ -15,7 +15,7 @@ public class MessageHandlerFactoryTest {
         message.setType(MessageTypeEnum.SUBMIT_RESULT.getType());
         message.setId(UUID.randomUUID().toString());
         message.setContent("message content");
-        MessageHandlerFactory messageHandlerFactory = new MessageHandlerFactory();
+        MessageHandlerSimpleFactory messageHandlerFactory = new MessageHandlerSimpleFactory();
         MessageHandler messageHandler = messageHandlerFactory.createHandler(MessageTypeEnum.SUBMIT_RESULT);
         messageHandler.handle(message);
     }

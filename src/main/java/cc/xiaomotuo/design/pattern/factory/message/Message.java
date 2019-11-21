@@ -1,4 +1,4 @@
-package cc.xiaomotuo.design.pattern.factory.simple.message;
+package cc.xiaomotuo.design.pattern.factory.message;
 
 /**
  * 消息体

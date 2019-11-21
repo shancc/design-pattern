@@ -1,6 +1,6 @@
-package cc.xiaomotuo.design.pattern.factory.simple.handler;
+package cc.xiaomotuo.design.pattern.factory.handler;
 
-import cc.xiaomotuo.design.pattern.factory.simple.message.Message;
+import cc.xiaomotuo.design.pattern.factory.message.Message;
 
 /**
  * 退款结果处理器
