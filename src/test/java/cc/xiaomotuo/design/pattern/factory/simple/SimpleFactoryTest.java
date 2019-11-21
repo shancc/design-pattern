@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import java.util.UUID;
 
-public class MessageHandlerSimpleFactoryTest {
+public class SimpleFactoryTest {
 
     @Test
     public void getHandler() {
