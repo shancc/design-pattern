@@ -1,5 +1,9 @@
 package cc.xiaomotuo.design.pattern.strategy;
 
+/**
+ * @author Cc
+ * @date 2019/11/21
+ */
 public enum ActivityTypeEnum {
 
     DISCOUNT("DISCOUNT"),

@@ -2,6 +2,8 @@ package cc.xiaomotuo.design.pattern.strategy;
 
 /**
  * 折扣活动策略
+ * @author Cc
+ * @date 2019/11/21
  */
 public class DiscountStrategy implements ActivityCalculateStrategy {
 
